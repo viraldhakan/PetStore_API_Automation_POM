@@ -7,8 +7,8 @@
     </listeners>
 
     <suite-files>
-        <suite-file path="crud-test.xml"/>
-        <suite-file path="integration-test.xml"/>
+        <suite-file path="crud.xml"/>
+        <suite-file path="integration.xml"/>
     </suite-files>
 
 </suite>
