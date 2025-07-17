@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Integration Test Suite">
+
+    <test verbose="2" preserve-order="true" name="Integration Test Cases">
+        <groups>
+            <run>
+                <include name="Integration"/>
+            </run>
+        </groups>
+
+        <classes>
+            <class name="PetStore.tests.integration.integrationTest"/>
+        </classes>
+
+    </test>
+</suite>
