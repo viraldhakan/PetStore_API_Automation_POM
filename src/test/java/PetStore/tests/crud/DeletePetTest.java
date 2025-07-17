@@ -8,27 +8,26 @@ import io.restassured.RestAssured;
 import org.testng.ITestContext;
 import org.testng.annotations.Test;
 
-public class getPet extends BaseTest {
+public class DeletePetTest extends BaseTest {
 
     @Owner("Viral Dhakan")
-    @Description("Verify a Get pet successfully")
-    @Test(groups = "Crud" , dependsOnMethods = "PetStore.tests.crud.createPet.testCreatePet")
-    public void testGetPet(ITestContext iTestContext){
+    @Description("Verify a delete pet successfully")
+    @Test(groups = "Crud")
+    public void testDeletePet(ITestContext iTestContext) {
 
-        int setId = Integer.parseInt((String) iTestContext.getAttribute("id"));
+        int setID = Integer.parseInt((String) iTestContext.getAttribute("id"));
 
-        requestSpecification.basePath(APIConstants.Get_Pet_URL  + "/"  + setId);
+        requestSpecification.basePath(APIConstants.Delete_Pet_URL + "/" + setID);
 
         response = RestAssured
                 .given().spec(requestSpecification)
                 .when()
-                .get();
+                .delete();
 
         validatableResponse = response.then().log().body();
         validatableResponse.statusCode(200);
 
-        System.out.println("Set ID :- " + setId);
-
+        System.out.println("Set Id :- " + setID);
 
     }
 }

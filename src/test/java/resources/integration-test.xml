@@ -10,7 +10,7 @@
         </groups>
 
         <classes>
-            <class name="PetStore.tests.integration.integrationTest"/>
+            <class name="PetStore.tests.integration.IntegrationTest"/>
         </classes>
 
     </test>

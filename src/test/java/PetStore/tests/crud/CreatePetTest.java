@@ -10,7 +10,7 @@ import io.restassured.path.json.JsonPath;
 import org.testng.ITestContext;
 import org.testng.annotations.Test;
 
-public class createPet extends BaseTest {
+public class CreatePetTest extends BaseTest {
 
 
     @Owner("Viral Dhakan")

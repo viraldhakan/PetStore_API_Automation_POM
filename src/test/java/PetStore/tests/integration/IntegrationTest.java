@@ -12,7 +12,7 @@ import io.restassured.path.json.JsonPath;
 import org.testng.ITestContext;
 import org.testng.annotations.Test;
 
-public class integrationTest extends BaseTest {
+public class IntegrationTest extends BaseTest {
 
     @Owner("Viral Dhakan")
     @Description("Verify a create pet successfully")

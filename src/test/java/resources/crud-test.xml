@@ -8,10 +8,10 @@
 
     <test verbose="2" preserve-order="true" name="Run Crud in order">
         <classes>
-            <class name="PetStore.tests.crud.createPet"/>
-            <class name="PetStore.tests.crud.getPet"/>
-            <class name="PetStore.tests.crud.updatePet"/>
-            <class name="PetStore.tests.crud.deletePet"/>
+            <class name="PetStore.tests.crud.CreatePetTest"/>
+            <class name="PetStore.tests.crud.GetPetTest"/>
+            <class name="PetStore.tests.crud.UpdatePetTest"/>
+            <class name="PetStore.tests.crud.DeletePetTest"/>
         </classes>
     </test>
 </suite>

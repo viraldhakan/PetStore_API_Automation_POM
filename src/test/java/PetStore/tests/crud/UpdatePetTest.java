@@ -9,7 +9,7 @@ import io.restassured.RestAssured;
 import org.testng.ITestContext;
 import org.testng.annotations.Test;
 
-public class updatePet extends BaseTest {
+public class UpdatePetTest extends BaseTest {
 
     @Owner("Viral Dhakan")
     @Description("Verify Update pet successfully")
