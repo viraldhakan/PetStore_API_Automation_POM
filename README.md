@@ -25,8 +25,23 @@ An end-to-end **API Automation Testing Framework** built using **RestAssured**, 
 ## 📁 Project Structure
 
 
-![img.png](img.png)
+````
+src
+│
+├── main/java/PetStore
+│ ├── endpoints # Contains all API endpoint methods
+│ ├── modules # Reusable logic modules
+│ ├── payload # Request payload builders (POJOs)
+│
+├── test/java/PetStore
+│ ├── actions # Reusable action classes for tests
+│ ├── tests # TestNG test classes
+│ └── resources # Test data, configs, etc.
+│
+├── pom.xml # Maven project file
+├── README.md # Project documentation
 
+````
 ---
 
 ## ✅ Features
