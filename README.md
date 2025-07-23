@@ -46,12 +46,14 @@ src
 
 ## ✅ Features
 
-- CRUD operations testing on Pet Store API
-- Modular, scalable POM-based framework
-- Custom assertions with AssertJ
-- JSON parsing with Jackson and GSON
-- CI/CD ready with Jenkins integration
-- Clear test logs and Allure reporting (optional)
+
+- End-to-end integration of Create, Read, Update, and Delete (CRUD) operations with automated API test flows
+- Modular and maintainable Page Object Model (POM)
+- Strong assertions with AssertJ
+- JSON handling with both Jackson
+- Supports parallel test execution with TestNG
+- Allure report integration for detailed test results
+- CI/CD-ready with Jenkins file included
 
 ---
 
